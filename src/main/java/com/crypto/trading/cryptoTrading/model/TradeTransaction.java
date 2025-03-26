@@ -32,6 +32,10 @@ public class TradeTransaction {
         this.timestamp = timestamp;
     }
 
+    public TradeTransaction() {
+
+    }
+
     public Long getId() {
         return id;
     }
